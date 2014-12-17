@@ -3,7 +3,7 @@ Draw polygons and rectangles on a HTML5 canvas reactivly<br>
 Demo here: http://canvasisfun.meteor.com<br>
 Demo code here: https://github.com/PhilippSpo/reactive-canvas-demo
 
-# Getting started
+## Getting started
 
 Here is some example code to get you started.
 Add a canvas element to your html.
