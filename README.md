@@ -12,7 +12,7 @@ Add a canvas element to your html.
 </template>
 ```
 Create some mongo collections to store your canvas elements into.
-```javscript
+```javascript
 Rectangles = new Mongo.Collection('rectangles');
 Polygons = new Mongo.Collection('polygons');
 ```
