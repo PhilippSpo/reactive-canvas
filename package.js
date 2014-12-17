@@ -24,9 +24,9 @@ Package.onUse(function (api) {
   // Specify the source code for the package.
   api.addFiles('lib/Poly.js', 'client');
   api.addFiles('lib/Rect.js', 'client');
-  api.addFiles('lib/CanvasState.js', 'client');
+  api.addFiles('lib/ReactiveCanvas.js', 'client');
 
-  api.export('CanvasState');
+  api.export('ReactiveCanvas');
   api.export('Polygon');
   api.export('Rectangle');
 });
