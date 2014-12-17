@@ -76,4 +76,11 @@ Template.hello.events({
   });
 ```
 When clicking on the buttons we just added, the insert mode of the Reactive gets changed either to `rect` or `poly`. Now a corresponding element can via double-clicking on the canvas.
-For a polygon the process of adding a new element is a litte bit more complex. When double-clicking you add the first coordinate of the polygon. You can add more points then by just clicking at the desired spot on the canvas. When you hid the "Done!" button the polygon gets created.
+For a polygon the process of adding a new element is a litte bit more complex. When double-clicking you add the first coordinate of the polygon. You can add more points then by just clicking at the desired spot on the canvas. When you hit the "Done!" button the polygon gets created, by calling the `finishElementCreating()` method on the ReactiveCanvas object.
+
+### Session variables
+As you can see in the `isCreating` helper ReactiveCanvas provides some session variables for you to reactivly update your UI.
+  - `isCreatingElementOnCanvas`: equals true if there a polygon is beeing drawed on the canvas by the user
+  - `shapeSelectedOnCanvas`: equals true if the user has selected a element
+  - `addPoints`: equals true if a element is selected, to which the user may add some more coordinate points
+  - `coordSelectedOnCanvas`: equals true if the user has selected a coordinate of a polygon (e.g. can be used for deleting polygon coordinate points)
