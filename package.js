@@ -7,7 +7,7 @@ Package.describe({
   // Optional.  Default is package directory name.
   name: "philippspo:reactive-canvas",
   // Optional github URL to your source repository.
-  git: "https://github.com/PhilippSpo/reactive-canvas.git",
+  git: "https://github.com/PhilippSpo/reactive-canvas",
 });
 
 /* This defines your actual package */
@@ -20,12 +20,13 @@ Package.onUse(function (api) {
   api.use('underscore', 'server');
   // Use application-configuration package, version 1.0.0 or newer.
   api.use('application-configuration@1.0.0');
+  api.use(['session', 'reactive-var@1.0.3']);
   // Specify the source code for the package.
   api.addFiles('lib/Poly.js', 'client');
   api.addFiles('lib/Rect.js', 'client');
   api.addFiles('lib/CanvasState.js', 'client');
 
   api.export('CanvasState');
-  api.export('Poly');
-  api.export('Rect');
+  api.export('Polygon');
+  api.export('Rectangle');
 });
