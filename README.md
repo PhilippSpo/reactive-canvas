@@ -61,7 +61,6 @@ And here come the event handlers and helpers for the code we just added.
 Template.hello.events({
     'change .drawMode': function(e) {
       var val = $('input[name=drawMode]:checked').val();
-      console.log(val);
       Template.hello.reactiveCanvas.insertMode = val;
     },
     'click #finishElement': function() {
