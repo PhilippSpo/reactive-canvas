@@ -39,29 +39,6 @@ if (Meteor.isClient) {
         var canvas = document.getElementById('canvas1');
         // store a reference to the reactive canvas in the template
         Template.hello.reactiveCanvas = new ReactiveCanvas(canvas, Rectangles, Polygons);
-        var s = Template.hello.reactiveCanvas;
-        var shapes = Rectangles.find();
-        var polygons = Polygons.find();
-    
-        // observe added and removed
-        shapes.observeChanges({
-            added: function(id) {
-                s.addShape(new Rectangle(id, Rectangles, s));
-            },
-            removed: function(id) {
-                // is handled automatically at the moment
-                // if you want to have some code to handle the removing do it here
-            }
-        });
-        polygons.observeChanges({
-            added: function(id) {
-                s.addShape(new Polygon(id, Polygons, s));
-            },
-            removed: function(id) {
-                // is handled automatically at the moment
-                // if you want to have some code to handle the removing do it here
-            }
-        });
     }
 }
 ```
