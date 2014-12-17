@@ -1,7 +1,7 @@
 /* Information about this package */
 Package.describe({
   // Short two-sentence summary.
-  summary: "Draw polygons and rectangles on a HTML5 canvas reactivly",
+  summary: "Draw polygons and rectangles on a HTML5 canvas reactively",
   // Version number.
   version: "0.0.1",
   // Optional.  Default is package directory name.
