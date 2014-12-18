@@ -1,5 +1,5 @@
 # reactive-canvas
-Draw polygons and rectangles on a HTML5 canvas reactivly<br>
+Draw polygons and rectangles on a HTML5 canvas reactively<br>
 Demo here: http://canvasisfun.meteor.com<br>
 Demo code here: https://github.com/PhilippSpo/reactive-canvas-demo
 
