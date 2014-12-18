@@ -22,6 +22,7 @@ Package.onUse(function (api) {
   api.use('application-configuration@1.0.0');
   api.use(['session', 'reactive-var@1.0.3']);
   // Specify the source code for the package.
+  api.addFiles('lib/Shape.js', 'client');
   api.addFiles('lib/Poly.js', 'client');
   api.addFiles('lib/Rect.js', 'client');
   api.addFiles('lib/ReactiveCanvas.js', 'client');
