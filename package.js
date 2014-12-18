@@ -3,7 +3,7 @@ Package.describe({
   // Short two-sentence summary.
   summary: "Draw polygons and rectangles on a HTML5 canvas reactively",
   // Version number.
-  version: "0.0.1",
+  version: "0.0.2",
   // Optional.  Default is package directory name.
   name: "philippspo:reactive-canvas",
   // Optional github URL to your source repository.
