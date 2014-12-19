@@ -1,4 +1,5 @@
 # reactive-canvas
+[![Code Climate](https://codeclimate.com/github/PhilippSpo/reactive-canvas/badges/gpa.svg)](https://codeclimate.com/github/PhilippSpo/reactive-canvas)<br>
 Draw polygons and rectangles on a HTML5 canvas reactively<br>
 Demo here: http://canvasisfun.meteor.com<br>
 Demo code here: https://github.com/PhilippSpo/reactive-canvas-demo
