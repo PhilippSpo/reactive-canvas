@@ -31,4 +31,5 @@ Package.onUse(function (api) {
   api.export('ReactiveCanvas');
   api.export('Polygon');
   api.export('Rectangle');
+  api.export('CanvasFunctions');
 });
