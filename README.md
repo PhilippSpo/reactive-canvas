@@ -37,9 +37,8 @@ if (Meteor.isClient) {
     };
     // initialize the reactiveCanvas and the Rectangles
     init = function() {
-        var canvas = document.getElementById('canvas1');
         // store a reference to the reactive canvas in the template
-        Template.hello.reactiveCanvas = new ReactiveCanvas(canvas, Rectangles, Polygons);
+        Template.hello.reactiveCanvas = new ReactiveCanvas('canvas1', Rectangles, Polygons);
     }
 }
 ```
