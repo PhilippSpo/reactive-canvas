@@ -26,6 +26,7 @@ Package.onUse(function (api) {
   api.addFiles('lib/Shape.js', 'client');
   api.addFiles('lib/Poly.js', 'client');
   api.addFiles('lib/Rect.js', 'client');
+  api.addFiles('lib/TextField.js', 'client');
   api.addFiles('lib/ReactiveCanvas.js', 'client');
 
   api.export('ReactiveCanvas');
