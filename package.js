@@ -28,6 +28,7 @@ Package.onUse(function (api) {
   api.addFiles('lib/Rect.js', 'client');
   api.addFiles('lib/TextField.js', 'client');
   api.addFiles('lib/ReactiveCanvas.js', 'client');
+  api.addFiles('lib/panZoomCanvas.js', 'client');
 
   api.export('ReactiveCanvas');
   api.export('Polygon');
