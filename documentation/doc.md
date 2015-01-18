@@ -1,4 +1,4 @@
-# Canvas Fun Demo Documentation
+# Reactive-Canvas Documentation
 
 There are two modes in demo: The view mode and the edit mode. You can change modes with a toggle button above the canvas. The layout in the canvas is the content.
  
