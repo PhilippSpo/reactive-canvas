@@ -18,8 +18,7 @@ Package.onUse(function (api) {
   // Use Underscore package, but only on the server.
   // Version not specified, so it will be as of Meteor 0.9.0.
   api.use('underscore', 'server');
-  // Use application-configuration package, version 1.0.0 or newer.
-  api.use('application-configuration@1.0.0');
+  
   api.use(['session', 'reactive-var@1.0.3']);
   // Specify the source code for the package.
   api.addFiles('lib/CanvasFunctions.js', 'client');
