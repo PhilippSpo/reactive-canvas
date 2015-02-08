@@ -19,18 +19,19 @@ Package.onUse(function (api) {
   // Version not specified, so it will be as of Meteor 0.9.0.
   api.use('underscore', 'server');
   
-  api.use(['session', 'reactive-var@1.0.3']);
+  api.use(['session', 'reactive-var@1.0.3', 'stevezhu:lodash@1.0.2']);
   // Specify the source code for the package.
   api.addFiles('lib/CanvasFunctions.js', 'client');
-  api.addFiles('lib/Shape.js', 'client');
-  api.addFiles('lib/Poly.js', 'client');
-  api.addFiles('lib/Rect.js', 'client');
-  api.addFiles('lib/TextField.js', 'client');
+  api.addFiles('lib/Shapes/Shape.js', 'client');
+  api.addFiles('lib/Shapes/Polygon/Poly.js', 'client');
+  api.addFiles('lib/Shapes/Polygon/PolyFunctions.js', 'client');
+  api.addFiles('lib/Shapes/Rectangle/Rect.js', 'client');
+  api.addFiles('lib/Shapes/TextField/TextField.js', 'client');
   api.addFiles('lib/ReactiveCanvas.js', 'client');
   api.addFiles('lib/panZoomCanvas.js', 'client');
+  api.addFiles('lib/CanvasController.js', 'client');
+  api.addFiles('lib/ReactiveCanvasStore.js', 'client');
 
   api.export('ReactiveCanvas');
-  api.export('Polygon');
-  api.export('Rectangle');
-  api.export('CanvasFunctions');
+  api.export('ReactiveCanvasStore');
 });
