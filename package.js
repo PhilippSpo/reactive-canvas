@@ -28,6 +28,7 @@ Package.onUse(function (api) {
   api.addFiles('lib/Shapes/Rectangle/Rect.js', 'client');
   api.addFiles('lib/Shapes/Rectangle/RectangleFunctions.js', 'client');
   api.addFiles('lib/Shapes/TextField/TextField.js', 'client');
+  api.addFiles('lib/Shapes/Icon/Icon.js', 'client');
   api.addFiles('lib/ReactiveCanvas.js', 'client');
   api.addFiles('lib/panZoomCanvas.js', 'client');
   api.addFiles('lib/CanvasController.js', 'client');
